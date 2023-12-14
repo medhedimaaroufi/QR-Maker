@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+#qr-code {
+    margin-top: 20px;
+}
+
+span{
+    vertical-align: -50px;
+}

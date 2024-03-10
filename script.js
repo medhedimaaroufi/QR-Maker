@@ -12,3 +12,12 @@ function generateQRCode() {
         height: 128
     });
 }
+
+window.addEventListener("DOMContentLoaded",()=>{
+    function control(e) {
+        if(e.keyCode === 13) {
+            generateQRCode();
+        }
+    }
+    document.addEventListener('keydown', control)
+})
